@@ -1,0 +1,70 @@
+
+.skill-card {
+    margin: 14px;
+    min-height: 125px;
+    min-width: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #1a1a1a; */
+    background-color: rgb(0, 34, 255);
+    background-color: rgba(0, 0, 0, 0.051);
+    /* color: black; */
+    /* background-image: var(--theme-em-gradient); */
+    /* background-image: var(--light-blue-gradient); */
+    /* background-image: url('/blob-1.svg'); */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* overflow: visible; */
+    background-size: 250%;
+    /* filter: hue-rotate(35deg); */
+    /* box-shadow: 0px 0px 25px #0062ffd5; */
+    border-radius: 8px;
+    border: solid rgba(255, 255, 255, 0.112) 3px;
+
+    /* border-radius: 50%; */
+    /* border: solid 1px #1a1a1a; */
+    transition-duration: 0.3s;
+    /* position: relative; */
+    /* flex: 0 0 25%; */
+    /* transition: flex-grow 0.3s ease; */
+    /* outline: auto; */
+    /* color: white; */
+    animation: fadeIn 0.5s forwards;
+
+}
+
+.skill-card:hover {
+    /* height: 200px; */
+    /* background-color: rgba(255, 255, 255, 0.38); */
+    /* box-shadow: 0px 0px 25px #0062fff6; */
+    box-shadow: 0px 0px 5px #000000f6;
+    /* color: #1a1a1a; */
+}
+
+.skill-card:hover > .skill-name {
+    padding: 0 10px;
+    margin-top: 12px;
+    height: auto;
+    opacity: 1;
+
+}
+
+.skill-logo {
+    height: 65px;
+    width: 65px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* outline: auto; */
+}
+
+.skill-name {
+    margin-top: 12px;
+    color: inherit;
+    min-height: 0;
+    /* opacity: 0; */
+    padding: 0 10px;
+    /* letter-spacing: 1px; */
+}

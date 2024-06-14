@@ -1,0 +1,25 @@
+.inline-container {
+    width: 100%;
+    height: 100px;
+    /* background-image: var(--theme-em-gradient); */
+}
+
+.line-1 {
+    width: 100%;
+    height: 50px;
+    background-image: var(--theme-em-gradient);
+    position: relative;
+}
+
+.b-1 {
+    position: relative;
+}
+
+.b-2 {
+    width: 30%;
+    height: 50%;
+}
+
+.line-2 {
+    width: 100%;
+}
