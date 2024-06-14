@@ -21,9 +21,14 @@ function ProjectCard(prop) {
       <div className="project-card-info-section">
         <div className="title-container">
           <div className="project-title roboto-bold">{prop.name}</div>
-          <Link to={`/projects/${prop.name}`}>
+          {/* <Link to={`/projects/${prop.name}`}>
+          <a href="">
             <span className="material-symbols-outlined open_in_new">open_in_new</span>
           </Link>
+          </a> */}
+          <a href={prop.url} target="_blank">
+            <span className="material-symbols-outlined open_in_new">open_in_new</span>
+          </a>
         </div>
         <div className="project-description">{techUsed}</div>
       </div>
