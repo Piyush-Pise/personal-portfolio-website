@@ -43,7 +43,7 @@ const GameDevSkillsArray = GameDevSkillInfo.map((obj, index) => (
 
 function Skills() {
   return (
-    <div className="skills-section">
+    <div id="Skills" className="skills-section">
       <div className="skill-text">SKILLS</div>
       <div className="line"></div>
       <div className="Parent-skills-container">

@@ -2,7 +2,7 @@ import "../css/home.css";
 
 function home() {
   return (
-    <div className="home-section">
+    <div id="Home" className="home-section">
       <div className="information">
         <div className="online-status">Online.</div>
         <div className="name-moto-text-section">
